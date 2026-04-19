@@ -21,7 +21,7 @@ window.addEventListener("resize", () => {
   camera.updateProjectionMatrix();
 });
 function animate() {
-  requestAnimationFrame(animate);
+  window.requestAnimationFrame(animate);
   renderer.render(scene, camera);
 }
 animate();
